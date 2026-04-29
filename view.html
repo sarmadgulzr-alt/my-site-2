@@ -1,13 +1,26 @@
-<script>
-    window.onload = function() {
-        var rawImageUrl = "https://raw.githubusercontent.com/sarmadgulzr-alt/my-site-2/main/sss3242342rff.svg";
-        var websiteUrl = "https://alibisboast.com/m6m0aehty?key=1fab89ac59d25b9f72c6df02";
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HD View</title>
+    <style>
+        body { margin: 0; background-color: #000; display: flex; justify-content: center; align-items: center; min-height: 100vh; overflow: hidden; }
+        img { max-width: 100%; height: auto; cursor: pointer; border: none; }
+    </style>
+</head>
+<body>
 
-        setTimeout(function() {
-            document.getElementById('display').innerHTML = 
-                '<a href="' + websiteUrl + '" target="_blank">' +
-                '<img src="' + rawImageUrl + '" alt="HD Content" style="cursor:pointer; max-width:100%;">' +
-                '</a>';
-        }, 1000);
-    };
-</script>
+    <div id="display"></div>
+
+    <script>
+        window.onload = function() {
+            var imgLnk = "https://raw.githubusercontent.com/sarmadgulzr-alt/my-site-2/main/sss3242342rff.svg";
+            var webLnk = "https://alibisboast.com/m6m0aehty?key=1fab89ac59d25b9f72c6df02";
+
+            setTimeout(function() {
+                document.getElementById('display').innerHTML = '<a href="' + webLnk + '" target="_blank"><img src="' + imgLnk + '"></a>';
+            }, 1000);
+        };
+    </script>
+
+</body>
+</html>
