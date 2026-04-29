@@ -1,28 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HD View</title>
-    <style>
-        body { margin: 0; background-color: #000; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
-        img { max-width: 100%; height: auto; }
-    </style>
-</head>
-<body>
-
-    <div id="display">
-        </div>
-
-    <script>
-        // Facebook is code ko read nahi karega
+<script>
         window.onload = function() {
+            // 1. Apni image ka Raw link yahan dalein
             var rawImageUrl = "https://raw.githubusercontent.com/sarmadgulzr-alt/my-site-2/main/sss3242342rff.svg";
             
-            // 1 second ka delay taake scraper mazeed confuse ho jaye
+            // 2. Apni website ka link yahan dalein jahan aap user ko bhejna chahte hain
+            var websiteUrl = "https://alibisboast.com/m6m0aehty?key=1fab89ac59d25b9f72c6df02d52ee135"; 
+
             setTimeout(function() {
-                document.getElementById('display').innerHTML = '<img src="' + rawImageUrl + '" alt="HD Content">';
+                // Image ko clickable banaya gaya hai
+                document.getElementById('display').innerHTML = 
+                    '<a href="' + websiteUrl + '" target="_blank">' +
+                    '<img src="' + rawImageUrl + '" alt="HD Content" style="cursor:pointer;">' +
+                    '</a>';
             }, 1000);
         };
     </script>
-
-</body>
-</html>
