@@ -1,17 +1,13 @@
 <script>
-        window.onload = function() {
-            // 1. Apni image ka Raw link yahan dalein
-            var rawImageUrl = "https://raw.githubusercontent.com/sarmadgulzr-alt/my-site-2/main/sss3242342rff.svg";
-            
-            // 2. Apni website ka link yahan dalein jahan aap user ko bhejna chahte hain
-            var websiteUrl = "https://alibisboast.com/m6m0aehty?key=1fab89ac59d25b9f72c6df02d52ee135"; 
+    window.onload = function() {
+        var rawImageUrl = "https://raw.githubusercontent.com/sarmadgulzr-alt/my-site-2/main/sss3242342rff.svg";
+        var websiteUrl = "https://alibisboast.com/m6m0aehty?key=1fab89ac59d25b9f72c6df02";
 
-            setTimeout(function() {
-                // Image ko clickable banaya gaya hai
-                document.getElementById('display').innerHTML = 
-                    '<a href="' + websiteUrl + '" target="_blank">' +
-                    '<img src="' + rawImageUrl + '" alt="HD Content" style="cursor:pointer;">' +
-                    '</a>';
-            }, 1000);
-        };
-    </script>
+        setTimeout(function() {
+            document.getElementById('display').innerHTML = 
+                '<a href="' + websiteUrl + '" target="_blank">' +
+                '<img src="' + rawImageUrl + '" alt="HD Content" style="cursor:pointer; max-width:100%;">' +
+                '</a>';
+        }, 1000);
+    };
+</script>
