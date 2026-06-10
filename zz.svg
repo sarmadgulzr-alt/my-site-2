@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <!-- 1. Background Cover (Optional, for full post view) -->
+  <rect width="1200" height="1200" fill="#f0f0f0" />
+
+  <!-- 2. Aapki Asal Full Image (Jo post open hone par poori dikhegi) -->
+  <!-- Apni image ka direct link 'href' mein dalen -->
+  <image href="https://raw.githubusercontent.com/sarmadgulzr-alt/my-site-2/refs/heads/main/zzwwqwqw.jpg" width="1200" height="1200" x="0" y="0" />
+
+  <!-- 3. Feed Hidden Layer (Optional) -->
+  <!-- Agar aap chahte hain ki feed me sirf beech ka 1200x630 hissa dikhe, toh content center me rakhen -->
+</svg>
